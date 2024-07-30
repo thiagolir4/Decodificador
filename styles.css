@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E3F2FD;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1000px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.input-section, .message-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 120px;
+    height: 48px;
+    margin-right: 10px;
+}
+
+h1 {
+    color: #004D40;
+    font-size: 24px;
+    margin: 0;
+}
+
+#text-input {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #B0BEC5;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.note {
+    color: #6B7280;
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#encrypt-btn {
+    background-color: #004D40;
+    color: #FFFFFF;
+}
+
+#decrypt-btn {
+    background-color: #80CBC4;
+    color: #004D40;
+}
+
+#encrypt-btn:hover {
+    background-color: #00332C;
+}
+
+#decrypt-btn:hover {
+    background-color: #4DB6AC;
+}
+
+.message-section {
+    background-color: #e0f7fa;
+    text-align: center;
+    border-left: 1px solid #B0BEC5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-section img {
+    width: 100%;
+    max-width: 336px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.no-message {
+    color: #004D40;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.message-section p {
+    color: #6B7280;
+    font-size: 16px;
+    margin: 0;
+}
+
+.placeholder-message {
+    margin-top: 10px;
+    color: #6B7280;
+    font-size: 16px;
+}
+
+.message-box {
+    background-color: #FFFFFF;
+    border: 1px solid #B0BEC5;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #004D40;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .input-section, .message-section {
+        flex: 1;
+        padding: 40px;
+    }
+}

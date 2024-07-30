@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Criptografia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <div class="header">
+                <img src="./image/logo.png" Logo" class="logo">
+                <h1>Digite seu texto</h1>
+            </div>
+            <textarea id="text-input" placeholder="Digite seu texto aqui..."></textarea>
+            <p class="note">🔵 Apenas letras minúsculas e sem acento.</p>
+            <div class="button-container">
+                <button id="encrypt-btn">Criptografar</button>
+                <button id="decrypt-btn">Descriptografar</button>
+            </div>
+        </div>
+        <div class="message-section">
+            <img src="./image/busca.svg" alt="Imagem de busca">
+            <p class="no-message">Nenhuma mensagem encontrada</p>
+            <p class="placeholder-message">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <p id="result-header" class="result-header" style="display:none;">Aqui está seu resultado!</p>
+            <div id="message-box" class="message-box" style="display:none;"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
