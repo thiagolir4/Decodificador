@@ -62,4 +62,4 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICEN
 
 ## Contato
 
-Para qualquer dúvida ou sugestão, entre em contato através do email: [seuemail@example.com](mailto:seuemail@example.com).
+Para qualquer dúvida ou sugestão, entre em contato através do email: [thi.lira01@hotmail.com]
